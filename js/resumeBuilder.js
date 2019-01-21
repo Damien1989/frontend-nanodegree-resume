@@ -9,7 +9,7 @@ var bio = {
 	"biopic":"images/2b.jpg",
 	"contacts":{"mobilenumber":"07760586545",
 	"email":"damiengraille@gmail.com",
-	"githubusername":"DamienGraille",
+	"github":"DamienGraille",
 	"location":"London"},
 	"skills":["HTML5","CSS3","Javascript:  ES6, React, Node", "Problem Analysis and Problem-Solving","Ability to work under pressure"]
 }
@@ -102,6 +102,8 @@ formattedmobile = HTMLmobile.replace("%data%", bio.contacts.mobilenumber);
 $("#header").append(formattedmobile);
 formattedemail = HTMLemail.replace("%data%", bio.contacts.email);
 $("#header").append(formattedemail);
+formattedgithub = HTMLgithub.replace("%data%", bio.contacts.github);
+$("#header").append(formattedgithub);
 formattedloc = HTMLlocation.replace("%data%", bio.contacts.location);
 $("#header").append(formattedloc);
 
