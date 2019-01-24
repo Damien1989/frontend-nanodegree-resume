@@ -162,6 +162,7 @@ ul {
   width: 200px;
   display: none;
   height: auto;
+  object-fit: cover;
 }
 
 img {
